@@ -1,0 +1,55 @@
+/* 
+.outfit-<uniquifier> {
+  
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color:hsl(212, 45%, 89%);
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 40px;
+}
+
+.container{
+  max-width: 400px;
+  width: 90%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 20px;
+  text-align: center;
+}
+
+h1{
+  font-weight: 600;
+  /* margin: 20px 5px; */
+}
+
+.container img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+p{
+  font-weight: 400;
+  color: grey;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 20px;
+
+}
